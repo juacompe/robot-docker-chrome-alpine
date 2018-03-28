@@ -1,9 +1,6 @@
-sudo: required
-
 services:
   - docker
 
 script:
   - docker build -t robot-framework-alpine .
-  - docker run -v `pwd`/test:/opt/robotframework/tests:Z -e BROWSER=chrome docker-robot-framework
   - docker run --rm -it -v `pwd`/example:/tests -v `pwd`/robot_result:/out robot-framework-alpine -d /out tests/*.robot
