@@ -19,3 +19,8 @@ See also <https://github.com/juacompe/docker-robot-framework>
     REPOSITORY                    TAG                 IMAGE ID            CREATED             SIZE
     robot-framework-alpine        latest              4b0c9f35bdba        16 minutes ago      307MB
 
+# Credit
+
+* [Vitty](https://th.linkedin.com/in/vitty)
+* [Eficode](https://github.com/eficode/)
+* [Paul Podgorsek](https://github.com/ppodgorsek/)
