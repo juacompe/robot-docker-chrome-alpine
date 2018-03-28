@@ -1,5 +1,6 @@
 # Running pybot in docker based on Alpine image
 
+[![Build Status](https://travis-ci.org/juacompe/robot-docker-chrome-alpine.svg?branch=master)](https://travis-ci.org/juacompe/robot-docker-chrome-alpine)
 
 Based on work by <https://github.com/eficode/robotframework-selenium>.
 
