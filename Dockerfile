@@ -1,6 +1,6 @@
 FROM python:2.7-alpine
 
-#RUN apk update
+RUN apk update
 RUN apk add --no-cache \
    udev \
    chromium \
@@ -8,8 +8,6 @@ RUN apk add --no-cache \
    xvfb \
    ttf-freefont
 
-
-#RUN apk add font-xfree86-type1
 
 RUN pip install --no-cache-dir \
  robotframework==3.0.2 \
