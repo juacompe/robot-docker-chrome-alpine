@@ -12,7 +12,7 @@ See also <https://github.com/juacompe/docker-robot-framework>
 
 # Run tests
 
-    docker run --rm -it -v `pwd`/example:/tests -v `pwd`/robot_result:/out robot-framework-alpine -d /out tests/*.robot
+    docker run --rm -it -v $(pwd)/example:/tests -v $(pwd)/robot_result:/out robot-framework-alpine -d /out tests/*.robot
 
 # Dockerhub
 
