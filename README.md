@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/juacompe/robot-docker-chrome-alpine.svg?branch=master)](https://travis-ci.org/juacompe/robot-docker-chrome-alpine)
 
-Based on work by <https://github.com/eficode/robotframework-selenium>.
+Based on work by <https://github.com/eficode/robotframework-selenium>. This repo is for Selenium2Library (version 2) because my team is using it.
 
 See also <https://github.com/juacompe/docker-robot-framework>
 
