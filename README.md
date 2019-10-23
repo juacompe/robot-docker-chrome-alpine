@@ -22,7 +22,7 @@ See also <https://github.com/juacompe/docker-robot-framework>
 
     ➜  robot-docker-chrome-alpine git:(master) docker images
     REPOSITORY                    TAG                 IMAGE ID            CREATED             SIZE
-    robot-framework-alpine        latest              4b0c9f35bdba        16 minutes ago      307MB
+    robot-framework-alpine        latest              0b6b92fad809        11 minutes ago      439MB
 
 # Credit
 
